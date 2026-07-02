@@ -16,7 +16,7 @@ from bokeh.models import (GraphRenderer, Circle, MultiLine, Rect, Text, StaticLa
 from bokeh.transform import transform
 
 def pu_do_nodes(trips):
-    # Intialize nodes and edges
+    # Initialize nodes and edges
     DO_nodes = list()
     PU_nodes = list()
     # Initialize a dict that maps a PU node to a DO node

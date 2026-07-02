@@ -12,12 +12,12 @@ class max_flow:
             G (nx.DiGraph): Directed graph with capacities cap and positions pos
         """
         self.G = G
-        self.set_initial_flow() # set intial flow
+        self.set_initial_flow() # set initial flow
         self.create_residual_graph() # create the residual graph
         self.pos = nx.get_node_attributes(self.G,'pos')
 
     def set_initial_flow(self):
-        """Set the intial flow on the graph G."""
+        """Set the initial flow on the graph G."""
         for i, j in self.G.edges:
             self.G.edges[i,j]['flow'] = 0
 

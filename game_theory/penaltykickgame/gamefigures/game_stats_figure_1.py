@@ -47,7 +47,7 @@ def bar_cs_code(bar_name):
 
     Returns:
     string -- A code string that when provided with the source of the figure,
-    uses the data for the relevant bar section(bar setion refered to by
+    uses the data for the relevant bar section(bar section referred to by
     bar_name) and all bar sections below it to calculate the correct
     y-coordinates for the relevant bar section.
     """

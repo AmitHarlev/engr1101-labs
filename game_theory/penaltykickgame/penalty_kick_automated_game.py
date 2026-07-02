@@ -18,7 +18,7 @@ class _GameParts:
     buttons -- A dict containing the game buttons.
     divs -- A dict containing the game divs.
     dropdowns -- A dict containing the game dropdowns.
-    lables -- A dict containing the game labels.
+    labels -- A dict containing the game labels.
     sliders -- A dict containing the game sliders.
     tables -- A dict containing the game tables.
     sources -- A dict containing the game sources.
